@@ -1,5 +1,5 @@
 
-#Automated/Manual Fish Feeder (ESP32) 
+###Automated/Manual Fish Feeder (ESP32)###
 
 A dual-mode automated fish feeding system built with an ESP32. This project features a physical TFT display menu, hardware PWM servo control for precise feeding mechanics, and a local embedded web server for remote control over WiFi.
     (WARNING:You can adjust line 69 to make sure the amount of feed dropped is adequate for your fish)
@@ -41,7 +41,8 @@ Ensure you have the following libraries installed in your Arduino IDE:
 
 1. Clone this repository:
    ```bash
-   git clone [https://github.com/yourusername/fish-feeder.git]
+   git clone https://github.com/yourusername/fish-feeder.git
+   
 2.Open the fish_feeder.ino file in the arduino ide
 
 3.Update the Wi-Fi credentials (ssid and password) and the web server login details at the top of the file.
